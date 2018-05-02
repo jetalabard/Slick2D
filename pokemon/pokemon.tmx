@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="tileset32x32" tilewidth="32" tileheight="32" tilecount="4096" columns="64">
+  <image source="Project-Pokemon-master/Project-Pokemon-master/Project-Pokemon/res/tileset32x32.png" width="2048" height="2048"/>
+ </tileset>
+ <tileset firstgid="4097" name="water" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../LPC Base Assets/LPC Base Assets/tiles/water.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="4115" name="tileset-gsk" tilewidth="32" tileheight="32" tilecount="440" columns="4">
+  <image source="../tileset-gsk.png" width="128" height="3527"/>
+ </tileset>
+ <tileset firstgid="4555" name="m63_6m230panm" tilewidth="32" tileheight="32" tilecount="852" columns="4">
+  <image source="../m63_6m230panm.png" width="128" height="6816"/>
+ </tileset>
+ <tileset firstgid="5407" name="tileset-pokemon_dawn" tilewidth="32" tileheight="32" tilecount="3666" columns="47">
+  <image source="../tileset-pokemon_dawn.png" width="1504" height="2519"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+3WYQrCMAyG4bb7t50q7mTqydwuZvpDGJKJBZMm9Rs8IBNs3lWLOaWUAZwggzVeV+/WXzRE7kgnryM57sEIDZodGp/7zaW1nkWHtD9a+67Vobme5fdqlI6zLs8d1aXYdmiKPr835GAGiIUczADY83+1Zdme+8/WohT53iTc96zO/N6CjrE7yKCj/m+XrMH2w1Lr2UgzP1O2zv1nP2o9G688/43dHXa0/BYfPP/G9g8dFKAjL/w+m5b+ezBiB85GAAAAAIB+noaJrNoQJwAA
+  </data>
+ </layer>
+ <layer name="Calque 2" width="50" height="50">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC92aiVLbMBRF7Tibs/JLgTZhbb8poQ17+02BFpqt/aUeD/HU8UiyJFvG9M2csRgG5V1fPenZxG97Xg0CKDKmNc+bwWWt2HnjGO+uce4jOISjgnUsyP8RnhzpmHv7uU9hBpcV1OHvEMWzt5/7Ah7h6Z3piPxI5l5FP/wUooh0VNmPZO5Z66rKfujqyOOHbE5R6OoQ5S37ORl5/FDdn3SY6kjP3Wq+UqQfOnVnoyM9r7/LP6mlyPooW0es5SWQf17TN/ND9Fll6chaVzb1YaKhDB2257kLHem50zri34kiWldV8SM9t8yTpK44bM8PEw1R5O2vsnSUfZ7PJJg8l+j44VqHDN31JgtVnTcbaId2ozgdtUBMEOSbX1XnY/KfwHGBOlw+D8r8mJP/FVw3xN5MFetdhEsdunUu8iZrzdvWgU3o9iVJb+LwJWtdhut1pfIjb62H5N+BLvSgDwMYCup6wT2toXPJdQVr2MBW47DK6kvy1voJ+Z7CGZzDBXyCzwIdfu1VRwgd6EIP+hoeZvkhWk8mcUO+t3AH9/AA3+C7QscJnMIZnMOFhg7X732W5LuCNWxgC7/hj0LHDdzCHdzDg4YO2z5RJ6JUwzprBLrQgz4MYFgX64j+Zsl1BWvYwFZzXVXlvc9o54dNVPG9j807bdPnWtu90USHTQ9j+lyrszea9iui/iVGt89P71e6OlR7o6hfkeVpS9or0zrX2RtF/UpSh0kvo9vnm9a57d7oum9P13mWDtu98S2fP4oM1zqqeH7YhOn5YRtlrKv/wY/39H9OVZTlhy/Z94sK1XlehwY0FeOqhGrf/QAfYawYtw54dhcQwrReDlGo9t0v8BXminGHfLsCegfye9fMoAWR1X773/dFVONJR73v/oCf8KwYu9AxgWNv//siOmOZH5HOrPpwoeMKrj153eqMTevDpR/JXEzHfsjagyB8u/qI/UjmYjoewSEchXr10SffgYBhDh0v8Mvbz8V0/Bd7JjBSECcAAA==
+  </data>
+ </layer>
+ <layer name="Calque 3" width="50" height="50" opacity="0.99">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2ZC3KCMBCGw6N2KngoxD6uBdj2XIBtL9HD9Le0I8MkkpDd8JBv5h8VkOzvbsiCQlzY/MkWn+AcNlD5mAJL8bIUH2Oy6dEc6POw+nALlw+d81KM8xQK8Qy9hPP28c8bsw/ZZ47a/XTkQ7aP0gdXPkygGIsrHzJCxXadsd4fhEhiIfZQCh2gx/iyfwr50OELPjLEnUMFdIReWz7O+Whfu1TvTTA8XIv7rRAl4q6gGjpBH7H8WE+iKeHtcG8CBVAI3e0Ux7VeuXwkEWocSqFD1NQ9F5w+MsSeQwV0jJq654LLx3nelIi9gmroFDV1P0c8zE0fCqBQMU+nwLeDhwQl/xBOWIqPW4ZjbbatiyHf56jFsiMXmObjd43gCMSSITGZetftTXRyqDrXkPlh6p2yN6Huc0z8y3qTBNv2UGrYt1D2ORTzN0M8OVSM3H/ZXq9LxF9B9da+tx96X0txzfLQC/tQQNDbD/XR9kCxjo7V23P0AH1jXMv/0PnKuQ6qfqOy8yrbbhqXS+/dHqdPJnCtnTq1pMqLDaocUz/fU41Dhe5zSqp8y+rHxX8gJpjU1LUYpoQqf6rtU/WxsrKycsv8ALWxJlcQJwAA
+  </data>
+ </layer>
+</map>

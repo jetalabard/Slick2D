@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/examples"/>
+	<classpathentry kind="src" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/src"/>
+	<classpathentry kind="src" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/tools"/>
+	<classpathentry kind="src" path="Project-Pokemon-master/Project-Pokemon/src"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/lwjgl.jar">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="Project-Pokemon-master/Project-Pokemon-master/Project-Pokemon/lib/natives/windows"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/slick.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/JLzma.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/lib/ibxm.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/lib/jinput.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/lib/jnlp.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/lib/jogg-0.0.7.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/lib/jorbis-0.0.15.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/lib/lwjgl_util_applet.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/lib/lwjgl_util.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/lib/pedigree.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/lib/slick-examples.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/lib/slick-util.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/lib/slick.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/lib/tinylinepp.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/maven/maven-ant-tasks-2.0.9.jar"/>
+	<classpathentry kind="lib" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/Pack200Task.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="Project-Pokemon-master/Project-Pokemon/lib/jars/Slick/bin"/>
+</classpath>

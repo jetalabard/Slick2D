@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" width="30" height="30" tilewidth="32" tileheight="32">
+ <properties>
+  <property name="name" value="Town"/>
+ </properties>
+ <tileset firstgid="1" name="tileset32x32" tilewidth="32" tileheight="32">
+  <image source="tileset32x32.png" width="2048" height="2048"/>
+  <tile id="2012">
+   <properties>
+    <property name="blocked" value="true"/>
+   </properties>
+  </tile>
+ </tileset>
+ <layer name="collision" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2UQQpAIQhE2/37H7C7tPoQUWnjlBgNuNJ8g2X5SykLUUuqRaNVj8uQxJV8MJjaGWjPItw6f4Lby5/m/jWRudY9elwf7qznqs+2n8aHJPTtW+XBtez6bg+zuohc9pwR/zdyrf8Vwl/1t3PPonJRtheX4eEm7qiOKcZdo1EAvvIwTRAOAAA=
+  </data>
+ </layer>
+ <layer name="background" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2XWwrDIBBFx7HouppC23WZvtbVx756BxkaQiGhNZOQ5OMgongYlYtWjqjqYM9EB3Dk7rm/4gA38AW9TyJKaOsvY9tWf1fQK2vdA9Ej9Js/Z+8Q+9w8V0uvrJF8xtr7gotjxkc7r9S4iR9W73S8F/iu4GboLcFY3hNy4wxvAnWw8wqSF5oZc/dKPmte+QXcq9U7He8QjOnVvNLMsvLqO0fo+578F8lndvkPYOlt171E7xsPMuu4EA4AAA==
+  </data>
+ </layer>
+ <layer name="objects" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC73W21LiMBzH8WpLWnF0pgj6PLuLyG2r7j6PeIBb6ul5RBe4pZ5eZ7/dtkM3NAlQ3Mx8xpak+fXfQ2zfsqwBTtDFxGG7YIBi60v965g687x+li+3saPfX7fleXm+qdVWzC0b7u4s1uvbltXAAZpo2eXzzfg9VhgKy4qE+lxEfbHegONCnOIM54pcn0IaCjMyY0Ou6v72sI0rRW7A/KGC75Lvrlav3KaK3CHzR7jFHe7xgEcEZIaGXN3z7GhyZ3TGeMUb3vGBTwzJjKTcF56l43qqU6Fev8a1xAGaaOEQR5iRGUu5Tv3f/bJ6i8++Kjdg/hCnOMM5fuIXfI9z8vS5a99f5o9wizvc4wGPCMgMDbmm9Up5f5k/xive8I4PfGJIZrRivTd2ysq2PWnBcbPjfd7PhkjftyZ/WzjEEWZkxhXr3VRb9f5uoiXXqJ29Q+Od9Lf/VW/eRFa3qd4LxvVwWS/prJBrqveJcSM8V8zN16vOkvVu7fL/AfZu+XwXe1wPXOIK17jZWxy36ef5iYwRnvGC3xgvkaurd5lPi619rgdsOKhB4Fo6eNP1fiPjO36gjWN09hfHqeqdYArBOucqeDX9OfQ0fXLuhLmmhbmT/ZPMONvPx3QNubom57qsp56YZxUJkfYXx5hqVrV8vcrXLF1uJ/k9083GVKk5b8naocvNuYX+r8hto19i5My3B4bcZd49OVdVy7bmW3id9vd7Urp3E29+/79Kskb/AXxo9DsQDgAA
+  </data>
+ </layer>
+ <layer name="foreground" width="30" height="30">
+  <data encoding="base64" compression="gzip">
+   H4sIAAAAAAAAC+2QywmAMBBEhyiKgkXF/9mm9KpNefbXj1OACBpJFPfBu+0ywwD/ZlLATBe60k0d3/UeMJzYBHZ7C8KfqEKgDq//tZFZbsvM7kbuaJhrE9ON7vKljXQMpDSLXTd5BzrhHjSjOS1ombhuZZ/Cd91AEAThGXao0PI0EA4AAA==
+  </data>
+ </layer>
+ <objectgroup name="object layer" width="30" height="30">
+  <object name="town" type="exit" gid="2013" x="288" y="0"/>
+  <object name="town" type="entrance" gid="2013" x="320" y="32"/>
+  <object name="water" type="water" gid="1796" x="864" y="288" height="32"/>
+  <object name="water" type="water" gid="1796" x="896" y="288" height="32"/>
+  <object name="water" type="water" gid="1796" x="864" y="320" height="32"/>
+  <object name="water" type="water" gid="1796" x="864" y="352" height="32"/>
+  <object name="water" type="water" gid="1796" x="864" y="384" height="32"/>
+  <object name="water" type="water" gid="1796" x="864" y="416" height="32"/>
+  <object name="water" type="water" gid="1796" x="864" y="448" height="32"/>
+  <object name="water" type="water" gid="1796" x="896" y="320" height="32"/>
+  <object name="water" type="water" gid="1796" x="896" y="352" height="32"/>
+  <object name="water" type="water" gid="1796" x="896" y="384" height="32"/>
+  <object name="water" type="water" gid="1796" x="896" y="416" height="32"/>
+  <object name="water" type="water" gid="1796" x="896" y="448" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="288" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="320" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="352" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="384" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="416" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="448" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="480" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="512" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="544" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="576" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="608" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="640" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="672" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="704" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="736" height="32"/>
+  <object name="water" type="water" gid="1796" x="928" y="768" height="32"/>
+  <object name="water" type="water" gid="1796" x="896" y="608" height="32"/>
+  <object name="water" type="water" gid="1796" x="896" y="640" height="32"/>
+  <object name="water" type="water" gid="1796" x="896" y="672" height="32"/>
+  <object name="water" type="water" gid="1796" x="896" y="736" height="32"/>
+  <object name="water" type="water" gid="1796" x="864" y="736" height="32"/>
+  <object name="water" type="water" gid="1796" x="896" y="768" height="32"/>
+  <object name="water" type="water" gid="1796" x="864" y="768" height="32"/>
+  <object name="water" type="water" gid="1796" x="896" y="704" height="32"/>
+  <object name="water" type="water" gid="1796" x="864" y="672" height="32"/>
+  <object name="water" type="water" gid="1796" x="864" y="704" height="32"/>
+  <object name="water" type="water" gid="1796" x="864" y="640" height="32"/>
+  <object name="water" type="water" gid="1796" x="864" y="608" height="32"/>
+  <object name="supervisor" type="npc" gid="2013" x="416" y="864"/>
+  <object name="captain" type="npc" gid="2013" x="864" y="448"/>
+  <object name="deubler1" type="npc" gid="2013" x="448" y="352"/>
+  <object name="holzerarmee" type="npc" gid="2013" x="576" y="384" width="128" height="64"/>
+  <object name="holzerarmee" type="npc" gid="2013" x="608" y="384" width="128" height="64"/>
+  <object name="holzerarmee" type="npc" gid="2013" x="640" y="384" width="128" height="64"/>
+  <object name="holzerarmee" type="npc" gid="2013" x="672" y="384" width="128" height="64"/>
+  <object name="holzerarmee" type="npc" gid="2013" x="576" y="416" width="128" height="64"/>
+  <object name="holzerarmee" type="npc" gid="2013" x="608" y="416" width="128" height="64"/>
+  <object name="holzerarmee" type="npc" gid="2013" x="640" y="416" width="128" height="64"/>
+  <object name="holzerarmee" type="npc" gid="2013" x="672" y="416" width="128" height="64"/>
+  <object name="holzerarmee" type="npc" gid="2013" x="704" y="384" width="128" height="64"/>
+  <object name="holzerarmee" type="npc" gid="2013" x="704" y="416" width="128" height="64"/>
+  <object name="skateboader" type="npc" gid="2013" x="352" y="544"/>
+  <object name="townFromTownHouse1" type="exit" gid="2013" x="192" y="128"/>
+  <object name="townHouse1" type="entrance" gid="2013" x="192" y="96"/>
+  <object name="university" type="entrance" gid="2013" x="512" y="320"/>
+  <object name="university" type="exit" gid="2013" x="512" y="352"/>
+ </objectgroup>
+</map>

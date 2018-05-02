@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="20" height="20" tilewidth="32" tileheight="32" nextobjectid="5">
+ <tileset firstgid="1" name="map" tilewidth="32" tileheight="32" tilecount="8" columns="4">
+  <image source="../../workspace/Slick2D/res/tiles/barrel.png" width="128" height="64"/>
+ </tileset>
+ <tileset firstgid="9" name="water" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../workspace/Slick2D/res/tiles/water.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="27" name="watergrass" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../workspace/Slick2D/res/tiles/watergrass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="45" name="dirt" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../workspace/Slick2D/res/tiles/dirt.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="63" name="grass" tilewidth="32" tileheight="32" tilecount="18" columns="3">
+  <image source="../../workspace/Slick2D/res/tiles/grass.png" width="96" height="192"/>
+ </tileset>
+ <tileset firstgid="81" name="rock" tilewidth="32" tileheight="32" tilecount="2" columns="2">
+  <image source="../../workspace/Slick2D/res/tiles/rock.png" width="64" height="32"/>
+ </tileset>
+ <tileset firstgid="83" name="trunk" tilewidth="32" tileheight="32" tilecount="18" columns="6">
+  <image source="../../workspace/Slick2D/res/tiles/trunk.png" width="192" height="96"/>
+ </tileset>
+ <tileset firstgid="101" name="treetop" tilewidth="32" tileheight="32" tilecount="42" columns="6">
+  <image source="../../workspace/Slick2D/res/tiles/treetop.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="143" name="bridges" tilewidth="32" tileheight="32" tilecount="42" columns="6">
+  <image source="../../workspace/Slick2D/res/tiles/bridges.png" width="192" height="224"/>
+ </tileset>
+ <tileset firstgid="185" name="house" tilewidth="32" tileheight="32" tilecount="63" columns="9">
+  <image source="../../workspace/Slick2D/res/tiles/house.png" width="288" height="224"/>
+ </tileset>
+ <tileset firstgid="248" name="man_eater_flower" tilewidth="32" tileheight="32" tilecount="45" columns="5">
+  <image source="../../workspace/Slick2D/res/sprites/monsters/man_eater_flower.png" width="180" height="304"/>
+ </tileset>
+ <layer name="Calque de Tile 1" width="20" height="20" offsetx="164" offsety="90">
+  <data encoding="base64" compression="zlib">
+   eJyllFsKhDAMRbMQh5FBZMS9pN3/aiZCC5eamKvzcaAt5JgXTiLyBV7GbkzDO8MRuxraqMbSfGu7HxSSBeK6E32sB31v4wPMhE+De8/F46peHc7oi/q+Jf3TwId59HdmDowPXdWJ9Wp84vNye1pvHWLQoYkv4sqD32F9kYfxFTn3MvNkviLn3o0ezxnV6+0gk+PdeXi7fMenjs+rmd2XkviYebD7wv7//mE2frzUaww=
+  </data>
+ </layer>
+ <layer name="rock" width="20" height="20" offsetx="162" offsety="89">
+  <data encoding="base64" compression="zlib">
+   eJxjYEAFk4B4MhBPYaAOmAHEM4F4FpHqAwnIzwPi+UC8gAI3DRcACqsgGpofDMQhQBxKJfMigTgKiKOpZF48ECcAcSIeNbQOI2qD4RDm1ADExNk+Ktt5nEx3jGQAALcQD3Y=
+  </data>
+ </layer>
+ <layer name="house" width="20" height="20" offsetx="164" offsety="88">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFo2AUDHVwBYivA/ENIL4JxNcoNO8ZED9Hwi8oNG8nEO9CwrspNO8QEB9GwkcoNO80EO8F4jNQfJZC80DgGBXMGOwAAH3/FNo=
+  </data>
+ </layer>
+ <layer name="tree" width="20" height="20" offsetx="164" offsety="86">
+  <data encoding="base64" compression="zlib">
+   eJxjYBgFAwXKgbgCiCupZF4tENcBcT2VzGsG4hYgbqWSeYMBpAJxGhCnU8m8bCDOAeJcCszYj8QuBOIiIC6mwLwTFOilBzhIJXP2QelTVDLvOJXMGUkAAHN1DNI=
+  </data>
+ </layer>
+</map>
